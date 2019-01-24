@@ -29,8 +29,8 @@ class Song
   end 
   
   def self.genre_count
-    @@genres.map do |key, value|
-    {"key" => "value.length"}
+    @@genres.map do |genre, name|
+    {"genre" => "name.length"}
     end
    
   end 
