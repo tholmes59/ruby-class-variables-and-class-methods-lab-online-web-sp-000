@@ -36,9 +36,9 @@ class Song
   end 
 
 
-  def self.genre_count
-    @@genres.map do |genres, name|
-    {"genres" => "name.length"}
+  def self.artist_count
+    @@artists.map do |artists, name|
+    {"artists" => "name.length"}
     end
     
   end
