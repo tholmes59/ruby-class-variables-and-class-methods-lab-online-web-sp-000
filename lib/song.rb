@@ -31,7 +31,7 @@ class Song
   def self.genre_count
     @@genres.map do |key, value|
      
-    
+    end
    
   end 
    binding.pry
