@@ -30,7 +30,7 @@ class Song
   
   def self.genre_count
     @@genres.map do |key, value|
-     self = {"key" => "value.length"}
+    {"key" => "value.length"}
     end
    
   end 
