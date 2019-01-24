@@ -38,9 +38,11 @@ class Song
 
 
   def self.artist_count
-    @@artists.map do |artists, name|
-    {"artists" => "name.length"}
+    artist_hash = {}
+    @@artists.each do |artists, name|
+    artist_hash[artists] = name
     end
-    
-  end
+    artist_hash
+  end 
+  
 end
