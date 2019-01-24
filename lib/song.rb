@@ -29,7 +29,8 @@ class Song
   end 
   
   def self.genre_count
-    @@genres.map do |genres, name|
+    genre_hash = {}
+    @@genres.each do |genres, name|
     {"genres" => "name.length"}
     end
    
